@@ -18,6 +18,7 @@ defmodule NoDeterministic.NfaStringEnd01 do
     end)
     |> has_final?()
     |> show_answer()
+    |> IO.puts()
   end
 
   defp has_final?(list_state) do
